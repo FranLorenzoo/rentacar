@@ -1,0 +1,11 @@
+{
+  "node_version": "20",
+  "dependencies": [
+    "."
+  ],
+"ui":{
+  "rent_a_car_agent":"./index.tsx"
+},
+ 
+  "env": ".env"
+}
