@@ -7,8 +7,7 @@
   "scripts": {
     "start": "tsx src/server/utils.server.ts --dev",
     "dev": "npx @langchain/langgraph-cli dev --port 2024 --config ../../langgraph.json",
-    "build": "turbo build:internal --filter=agents",
-    "build:internal": "pnpm run clean && tsc",
+    "build": "next build:internal --filter=agents",
     "clean": "rm -rf ./dist .turbo || true",
     "format": "prettier --config .prettierrc --write \"src\"",
     "lint": "eslint src",
